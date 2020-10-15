@@ -7,7 +7,7 @@
 #     plugins+=(pipenv)
 # fi
 
-is_installed nano && export EDITOR="nano"
+is_installed vim && export EDITOR="vim"
 
 # subl
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"

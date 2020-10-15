@@ -9,7 +9,7 @@ export DOTFILES="$HOME/.dotfiles"
 # Emergency aliases / commands
 alias cdot="cddot"
 alias cddot='cd "$DOTFILES/zsh"'
-alias dotfiles='nano "$DOTFILES/zsh/.zshrc"'
+alias dotfiles='vim "$DOTFILES/zsh/.zshrc"'
 
 alias reload='unset NO_RCS && exec $SHELL -l'
 alias ohshit='NO_RCS=1 exec $SHELL -l'

@@ -6,7 +6,6 @@ not is_installed grc && return
 [[ "$TERM" == dumb ]] && return
 
 alias colourify="grc -es --colour=auto"
-alias ls='exa'
 # alias diff='colourify diff'
 alias as='colourify as'
 alias blkid='colourify blkid'

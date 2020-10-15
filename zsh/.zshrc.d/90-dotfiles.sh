@@ -2,8 +2,7 @@
 # shellcheck shell=bash
 
 
-if is_installed code-insiders; then
-    alias code="code-insiders"
+if is_installed code; then
     alias vscode="code"
     alias dotfiles="code -n $DOTFILES"
     export VISUAL="code"
