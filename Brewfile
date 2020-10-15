@@ -1,6 +1,7 @@
 brew "antibody"
 brew "bc"
 brew "ccat"
+brew "cmatrix"
 brew "coreutils"
 brew "diff-so-fancy"
 brew "fzf"
