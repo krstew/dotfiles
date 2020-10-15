@@ -56,7 +56,7 @@ function sum {
 
 alias map="xargs -n1"
 alias untar="tar xf"
-alias matrix="cmatrix"
+alias matrix="cmatrix -ab"
 
 # https://github.com/mathiasbynens/dotfiles/blob/master/.aliases
 alias ifactive="ifconfig | pcregrep -M -o '^[^\t:]+:([^\n]|\n\t)*status: active'"
