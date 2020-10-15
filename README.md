@@ -9,7 +9,7 @@ You should extend / edit this however you like.
 
 ## Features
 
-- `dot`: a bunch of built-in dotfiles [`zsh/.zshrc.d`](https://github.com/surjikal/dotfiles/tree/master/zsh/.zshrc.d)
+- `dot`: a bunch of built-in dotfiles [`zsh/.zshrc.d`](https://github.com/krstew/dotfiles/tree/master/zsh/.zshrc.d)
 - `dot theme`: minimal [powerlevel10k](https://github.com/romkatv/powerlevel10k_) theme
 - `dot plugins`: [ohmyzsh](https://ohmyz.sh) & [antibody](https://getantibody.github.io) plugins
 - `dot stow`: [stow](https://www.gnu.org/software/stow) support. See more info below.
@@ -19,7 +19,7 @@ You should extend / edit this however you like.
 Install [brew](https://brew.sh/) first. Then run:
 
 ```
-git clone https://github.com/surjikal/dotfiles.git ~/.dotfiles && cd $_
+git clone https://github.com/krstew/dotfiles.git ~/.dotfiles && cd $_
 brew bundle
 stow zsh
 exec zsh -l
